@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public Text timerText;
     public Text gameOverText; 
     public bool gameOver; 
-    private float spawnRate = 5.0f;
+    private float spawnRate = 2.0f;
     private float timeLeft = 30;
     // Start is called before the first frame update
     void Start()
