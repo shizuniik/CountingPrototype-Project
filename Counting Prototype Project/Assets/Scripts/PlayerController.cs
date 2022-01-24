@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float zRange;
     private float destroyDelay = 0.2f;
     [SerializeField] float yRange;
+    [SerializeField] AudioClip pointSound; 
     public int Count 
     {
         get { return count; } 
@@ -32,6 +33,7 @@ public class PlayerController : MonoBehaviour
         if(other.CompareTag("Food") && other.transform.position.y > yRange)
         {
             count++;
+            gameObject.GetComponent<AudioSource>().PlayOneShot(pointSound); 
             Destroy(other.gameObject, destroyDelay); 
         }
     }

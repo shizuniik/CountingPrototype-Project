@@ -96,8 +96,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.2006541, z: 1.7424448}
-  m_Center: {x: 0, y: -0.100327194, z: -0.02846086}
+  m_Size: {x: 1, y: 1.3568945, z: 1.7893177}
+  m_Center: {x: 0, y: -0.17844728, z: -0.03564614}
 --- !u!54 &7614142125774079696
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -129,6 +129,7 @@ MonoBehaviour:
   speed: 30
   zRange: 5
   yRange: 0
+  pointSound: {fileID: 0}
 --- !u!1001 &817974102998020028
 PrefabInstance:
   m_ObjectHideFlags: 0

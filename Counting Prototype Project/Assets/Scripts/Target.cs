@@ -5,7 +5,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     private float zRange = 8; 
-    private float ySpawnPos = 15; 
+    private float ySpawnPos = 15;
     // Start is called before the first frame update
     void Start()
     {
